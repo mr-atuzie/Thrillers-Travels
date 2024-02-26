@@ -11,7 +11,7 @@ const Dashboard = () => {
   return (
     <div className=" w-full min-h-screen">
       {/* destination */}
-      <div className=" bg-white p-5 rounded-2xl flex flex-col gap-4">
+      <div className=" shadow-md bg-white p-5 rounded-2xl flex flex-col gap-4">
         <div className=" flex w-full justify-between items-center">
           <div className=" bg-gray-200 p-2 w-[50%] h-[40px] rounded-full flex justify-around items-center">
             <span className="text-[#2b3131] flex gap-2 items-center">
@@ -63,7 +63,7 @@ const Dashboard = () => {
         </div>
       </div>
       {/* filter */}
-      <div className=" flex justify-between my-7">
+      <div className=" flex justify-between my-10">
         <h1 className=" font-semibold text-[#2b3131]">RESULT (25)</h1>
 
         <div className=" flex gap-4">
@@ -76,8 +76,9 @@ const Dashboard = () => {
           </button>
         </div>
       </div>
+      {/* flight plan */}
       <div className=" flex justify-between">
-        <div className=" bg-white p-3 w-[65%] rounded-xl">
+        <div className=" bg-white shadow p-3 w-[65%] rounded-xl">
           <div className=" w-full grid grid-cols-5 items-center border-b-2 border-dashed py-2">
             <img src={emirates} alt="" width={80} />
 
@@ -220,7 +221,7 @@ const Dashboard = () => {
           </div>
         </div>
 
-        <div className="  bg-[#484949]  w-[30%] rounded-xl">
+        <div className="  bg-[#484949] shadow-md  w-[30%] rounded-xl">
           <div className=" p-3  bg-[#2b3131]  rounded-t-xl   h-60">
             <div className=" flex justify-between ">
               <div className=" text-white ">

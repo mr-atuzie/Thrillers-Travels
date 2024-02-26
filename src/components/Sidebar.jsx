@@ -32,7 +32,7 @@ const Sidebar = () => {
 
       {/* navlinks */}
       <ul className=" mt-10 ml-10 flex flex-col gap-2">
-        <li className=" bg-gray-100 w-full p-2.5 rounded-l-full flex">
+        <li className=" bg-gray-200 w-full p-2.5 rounded-l-full flex">
           <PiHouse className=" text-yellow-500" size={20} />
           <h1 className=" uppercase text-[#4e5c5c] ml-3">Dashboard</h1>
         </li>
