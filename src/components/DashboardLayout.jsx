@@ -1,21 +1,13 @@
 import React from "react";
 import { Outlet } from "react-router-dom";
+import Sidebar from "./Sidebar";
 
 const DashboardLayout = () => {
   return (
-    <div className=" min-h-screen flex">
-      <div className="block lg:w-[20%] bg-[#08432d]  fixed left-0 h-screen   ">
-        <li>Nav</li>
-        <li>Nav</li>
-        <li>Nav</li>
-        <li>Nav</li>
-        <li>Nav</li>
-        <li>Nav</li>
-        <li>Nav</li>
-        <li>Nav</li>
-      </div>
-      <div className=" w-[80%]  bg-gray-100  py-5 ">
-        <div className=" w-[90%] mx-auto">
+    <div className=" min-h-screen flex  bg-blue-100">
+      <Sidebar />
+      <div className=" w-[80%]   py-10 ">
+        <div className=" w-[85%] mx-auto">
           <Outlet />
         </div>
       </div>
