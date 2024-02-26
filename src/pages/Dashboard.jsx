@@ -221,15 +221,17 @@ const Dashboard = () => {
         </div>
 
         <div className="  bg-[#484949]  w-[30%] rounded-xl">
-          <div className=" flex justify-between p-3  bg-[#2b3131]  rounded-t-xl   h-60">
-            <div className=" text-white ">
-              <h1 className=" text-xs">FROM</h1>
-              <p>JFK</p>
-            </div>
-            <p className=" uppercase text-white text-xs">Non-stop</p>
-            <div className=" text-white ">
-              <h1 className=" text-xs">TO</h1>
-              <p>BOM</p>
+          <div className=" p-3  bg-[#2b3131]  rounded-t-xl   h-60">
+            <div className=" flex justify-between ">
+              <div className=" text-white ">
+                <h1 className=" text-xs">FROM</h1>
+                <p>JFK</p>
+              </div>
+              <p className=" uppercase text-white text-xs">Non-stop</p>
+              <div className=" text-white ">
+                <h1 className=" text-xs">TO</h1>
+                <p>BOM</p>
+              </div>
             </div>
           </div>
 
