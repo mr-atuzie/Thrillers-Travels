@@ -220,17 +220,35 @@ const Dashboard = () => {
           </div>
         </div>
 
-        <div className="  bg-[#2b3131] p-3 w-[30%] rounded-xl">
-          <div className=" flex justify-between items-center">
-            <div className=" text-white flex flex-col justify-center items-end">
+        <div className="  bg-[#484949]  w-[30%] rounded-xl">
+          <div className=" flex justify-between p-3  bg-[#2b3131]  rounded-t-xl   h-60">
+            <div className=" text-white ">
               <h1 className=" text-xs">FROM</h1>
               <p>JFK</p>
             </div>
             <p className=" uppercase text-white text-xs">Non-stop</p>
-            <div className=" text-white flex flex-col justify-center items-center">
+            <div className=" text-white ">
               <h1 className=" text-xs">TO</h1>
               <p>BOM</p>
             </div>
+          </div>
+
+          <div className=" p-3  flex justify-between items-center">
+            <button className=" bg-yellow-600 px-2 py-1 text-center text-white text-xs rounded-full uppercase">
+              NON-stop
+            </button>
+            <button className=" bg-yellow-600 px-2 py-1 text-center text-white text-xs rounded-full uppercase">
+              one stop
+            </button>
+            <button className=" bg-yellow-600 px-2 py-1 text-center text-white text-xs rounded-full uppercase">
+              mORE stop
+            </button>
+          </div>
+
+          <div className=" p-3">
+            <h2 className=" text-white text-sm">PRICE</h2>
+
+            <div className=" w-full mt-1 border border-white"></div>
           </div>
         </div>
       </div>
