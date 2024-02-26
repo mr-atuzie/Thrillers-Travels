@@ -4,6 +4,9 @@ import { GoArrowSwitch } from "react-icons/go";
 import { MdKeyboardArrowDown, MdOutlineCalendarMonth } from "react-icons/md";
 import { IoMdPerson } from "react-icons/io";
 
+import emirates from "../assets/emirates.png";
+import qatar from "../assets/qatar.png";
+
 const Dashboard = () => {
   return (
     <div className=" w-full min-h-screen">
@@ -64,17 +67,158 @@ const Dashboard = () => {
         <h1 className=" font-semibold text-[#2b3131]">RESULT (25)</h1>
 
         <div className=" flex gap-4">
-          <button className=" uppercase text-sm bg-white p-2 font-medium text-center text-[#2b3131] rounded-full">
+          <button className="  uppercase text-sm bg-white px-4 py-2 font-medium text-center text-[#2b3131] rounded-full">
             Filter
           </button>
 
-          <button className=" w-full flex justify-between  font-medium items-center uppercase text-sm bg-white p-2 text-center text-[#2b3131] rounded-full">
+          <button className=" px-4 py-2 flex gap-2  justify-between  font-medium items-center uppercase text-sm bg-white p-2 text-center text-[#2b3131] rounded-full">
             TICKET OF CLASS <MdKeyboardArrowDown />
           </button>
         </div>
       </div>
       <div className=" flex justify-between">
-        <div className=" bg-white p-3 w-[60%]"></div>
+        <div className=" bg-white p-3 w-[65%] rounded-xl">
+          <div className=" w-full grid grid-cols-5 items-center border-b-2 border-dashed py-2">
+            <img src={emirates} alt="" width={80} />
+
+            <div className=" text-[#2b3131] flex flex-col justify-center items-center">
+              <h1 className=" font-medium">JFK</h1>
+              <p className=" text-xs mt-1">13:00</p>
+            </div>
+
+            <div className=" text-[#2b3131] flex flex-col justify-center items-center">
+              <p className=" text-xs  uppercase">Emirates</p>
+              <p className=" text-sm font-medium my-1 uppercase text-yellow-600">
+                11H 20M
+              </p>
+              <p className=" text-xs uppercase">Non-stop</p>
+            </div>
+
+            <div className=" text-[#2b3131] flex flex-col justify-center items-center">
+              <h1 className=" font-medium">BOM</h1>
+              <p className=" text-xs mt-1">14:20</p>
+            </div>
+
+            <div className=" text-[#2b3131] flex flex-col justify-center items-center">
+              <h1 className=" text-sm">$1,345</h1>
+              <button className=" p-2 mt-1 text-xs uppercase text-white rounded-full bg-yellow-600">
+                book now
+              </button>
+            </div>
+          </div>
+          <div className=" w-full grid grid-cols-5 items-center border-b-2 border-dashed py-2">
+            <img src={qatar} alt="" width={80} />
+
+            <div className=" text-[#2b3131] flex flex-col justify-center items-center">
+              <h1 className=" font-medium">JFK</h1>
+              <p className=" text-xs mt-1">13:00</p>
+            </div>
+
+            <div className=" text-[#2b3131] flex flex-col justify-center items-center">
+              <p className=" text-xs  uppercase">Emirates</p>
+              <p className=" text-sm font-medium my-1 uppercase text-yellow-600">
+                11H 20M
+              </p>
+              <p className=" text-xs uppercase">Non-stop</p>
+            </div>
+
+            <div className=" text-[#2b3131] flex flex-col justify-center items-center">
+              <h1 className=" font-medium">BOM</h1>
+              <p className=" text-xs mt-1">14:20</p>
+            </div>
+
+            <div className=" text-[#2b3131] flex flex-col justify-center items-center">
+              <h1 className=" text-sm">$1,345</h1>
+              <button className=" p-2 mt-1 text-xs uppercase text-white rounded-full bg-yellow-600">
+                book now
+              </button>
+            </div>
+          </div>
+          <div className=" w-full grid grid-cols-5 items-center border-b-2 border-dashed py-2">
+            <img src={emirates} alt="" width={80} />
+
+            <div className=" text-[#2b3131] flex flex-col justify-center items-center">
+              <h1 className=" font-medium">JFK</h1>
+              <p className=" text-xs mt-1">13:00</p>
+            </div>
+
+            <div className=" text-[#2b3131] flex flex-col justify-center items-center">
+              <p className=" text-xs  uppercase">Emirates</p>
+              <p className=" text-sm font-medium my-1 uppercase text-yellow-600">
+                11H 20M
+              </p>
+              <p className=" text-xs uppercase">Non-stop</p>
+            </div>
+
+            <div className=" text-[#2b3131] flex flex-col justify-center items-center">
+              <h1 className=" font-medium">BOM</h1>
+              <p className=" text-xs mt-1">14:20</p>
+            </div>
+
+            <div className=" text-[#2b3131] flex flex-col justify-center items-center">
+              <h1 className=" text-sm">$1,345</h1>
+              <button className=" p-2 mt-1 text-xs uppercase text-white rounded-full bg-yellow-600">
+                book now
+              </button>
+            </div>
+          </div>
+          <div className=" w-full grid grid-cols-5 items-center border-b-2 border-dashed py-2">
+            <img src={qatar} alt="" width={80} />
+
+            <div className=" text-[#2b3131] flex flex-col justify-center items-center">
+              <h1 className=" font-medium">JFK</h1>
+              <p className=" text-xs mt-1">13:00</p>
+            </div>
+
+            <div className=" text-[#2b3131] flex flex-col justify-center items-center">
+              <p className=" text-xs  uppercase">Emirates</p>
+              <p className=" text-sm font-medium my-1 uppercase text-yellow-600">
+                11H 20M
+              </p>
+              <p className=" text-xs uppercase">Non-stop</p>
+            </div>
+
+            <div className=" text-[#2b3131] flex flex-col justify-center items-center">
+              <h1 className=" font-medium">BOM</h1>
+              <p className=" text-xs mt-1">14:20</p>
+            </div>
+
+            <div className=" text-[#2b3131] flex flex-col justify-center items-center">
+              <h1 className=" text-sm">$1,345</h1>
+              <button className=" p-2 mt-1 text-xs uppercase text-white rounded-full bg-yellow-600">
+                book now
+              </button>
+            </div>
+          </div>
+          <div className=" w-full grid grid-cols-5 items-center border-b-2 border-dashed py-2">
+            <img src={emirates} alt="" width={80} />
+
+            <div className=" text-[#2b3131] flex flex-col justify-center items-center">
+              <h1 className=" font-medium">JFK</h1>
+              <p className=" text-xs mt-1">13:00</p>
+            </div>
+
+            <div className=" text-[#2b3131] flex flex-col justify-center items-center">
+              <p className=" text-xs  uppercase">Emirates</p>
+              <p className=" text-sm font-medium my-1 uppercase text-yellow-600">
+                11H 20M
+              </p>
+              <p className=" text-xs uppercase">Non-stop</p>
+            </div>
+
+            <div className=" text-[#2b3131] flex flex-col justify-center items-center">
+              <h1 className=" font-medium">BOM</h1>
+              <p className=" text-xs mt-1">14:20</p>
+            </div>
+
+            <div className=" text-[#2b3131] flex flex-col justify-center items-center">
+              <h1 className=" text-sm">$1,345</h1>
+              <button className=" p-2 mt-1 text-xs uppercase text-white rounded-full bg-yellow-600">
+                book now
+              </button>
+            </div>
+          </div>
+        </div>
 
         <div className="  bg-[#2b3131] p-3 w-[30%]"></div>
       </div>
