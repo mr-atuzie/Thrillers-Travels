@@ -15,7 +15,7 @@ const Sidebar = () => {
     "https://media.istockphoto.com/id/1355110818/photo/studio-shot-of-a-handsome-and-happy-young-man-posing-against-a-grey-background.jpg?s=612x612&w=0&k=20&c=T39jUOOjC8H-Op0cfd-uiNXk1a2XBn1sXkQbKIWwY7E=",
   ];
   return (
-    <div className="block w-[20%] bg-[#2b3131]  min-h-screen rounded-tr-[25px]  ">
+    <div className="block w-[20%] bg-[#2b3131]  min-h-screen rounded-tr-[25px] rounded-br-[25px]  ">
       {/* display pic */}
       <div className=" bg-[#484949] shadow-md  py-8 flex flex-col justify-center items-center rounded-tr-[25px]">
         <div className=" border border-yellow-400 h-[110px] w-[110px] flex justify-center items-center rounded-full">
